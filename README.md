@@ -28,4 +28,4 @@ In order to run the project and get reports:
 3. allure serve <report_dir>
 
 The limits of given software - is range of numbers between (-sys.maxsize, sys.maxsize)
-In case of wrong input to calculator method it throws 
+In case of wrong input to calculator method it throws TypeError
