@@ -70,7 +70,7 @@ def test_divide_valid(valid_numbers):
         assert Calculator().divide(a, b) == a / b
 
 
-@allure.feature("Division - EP")
+@allure.feature("Division - BVA")
 def test_divide_boundary(boundary_numbers):
     a, b = boundary_numbers
     if b == 0:
